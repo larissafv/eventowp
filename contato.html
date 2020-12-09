@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x icon" href="icone.png">
     <title>iJunior</title>
+    <link href="mystyle.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,30 +16,33 @@
     <main>
         <div>
             <a href="https://ijunior.com.br/ijunior/"><img src="identvisual.png" height="200" width="200" alt="Ícone da iJunior"></a> 
-            <p>Clique na imagem e vá para nosso site bonito.</p>
+            <p class="legenda">Clique na imagem e vá para nosso site bonito.</p>
         </div>
 
         <div>
             <h3>Quer entrar para a nossa empresa e deixar esse site lindo? Preencha o formulário abaixo então <3</h3>
         </div>
-
-        <div>
+        <div class="formulario">
             <form>
-                <label for="a">Seu nome:</label>
-                <input type="text" name="a">
-                <p></p>
-                <label for="b">Seu email:</label>
-                <input type="text" name="b">
-                <p></p>
-                <label for="c">Mande uma mensagem carinhosa:</label>
-                <textarea name="c"></textarea>
-                <p></p>
-                <label for="d">Você gosta de tecnologia?</label>
-                <input type="checkbox" name="d">
-                <p></p>
-                <label for="e">Quando é seu aniversário?</label>
-                <input type="date" name="e">
-                <p></p>
+                <div class="primeira">
+                    <label for="a">Seu nome:</label>
+                    <input type="text" name="a">
+                    <p></p>
+                    <label for="c">Mande uma mensagem carinhosa:</label>
+                    <textarea name="c"></textarea>
+                    <p></p>
+                </div>
+                <div class="segunda">
+                    <label for="b">Seu email:</label>
+                    <input type="text" name="b">
+                    <p></p>
+                    <label for="d">Você gosta de tecnologia?</label>
+                    <input type="checkbox" name="d">
+                    <p></p>
+                    <label for="e">Quando é seu aniversário?</label>
+                    <input type="date" name="e">
+                    <p></p>
+                </div>
             </form>
             <button>Envie suas respostas</button>
         </div>
